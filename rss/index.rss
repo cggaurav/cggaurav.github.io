@@ -1,4 +1,178 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Gaurav Chandrashekar (Gaw-rev)</title><description>Product Manager, Software Engineer, x Professional Swimmer, Skydiver, Freediver, Tablist, What's worth solving?</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Sun, 26 Aug 2018 19:08:25 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Skydiving</title><description>&lt;p&gt;I spent the last three weeks learning how to sky dive and got my A license, a ticket for me to jump out of planes around the world - and loved it!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Gaurav Chandrashekar (Gaw-rev)</title><description>Product Manager, Software Engineer, x Professional Swimmer, Skydiver, Freediver, Tablist, What's worth solving?</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Sat, 01 Sep 2018 21:50:50 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Pointers to do "Product" well</title><description>&lt;h1 id="13pointersifyouareinaproductrole"&gt;13 Pointers if you are in a Product Role&lt;/h1&gt;
+
+&lt;h2 id="asioftenfindmyselfintheintersectionoftechproductforfastgrowing"&gt;As I often find myself in the intersection of tech &amp;amp; product for fast growing&lt;/h2&gt;
+
+&lt;p&gt;startups that are trying to find product market fit, these pointers have helped &lt;br&gt;
+me to work effectively to figure out next steps for the product. #productnotes&lt;/p&gt;</description><link>http://localhost:2368/2018/09/02/pointers-to-do-product-well/</link><guid isPermaLink="false">d2fe1a18-55fd-4a4b-aabb-5e1c738847a5</guid><dc:creator>Gaurav C</dc:creator><pubDate>Sat, 01 Sep 2018 21:45:41 GMT</pubDate><content:encoded>&lt;h1 id="13pointersifyouareinaproductrole"&gt;13 Pointers if you are in a Product Role&lt;/h1&gt;
+
+&lt;h2 id="asioftenfindmyselfintheintersectionoftechproductforfastgrowing"&gt;As I often find myself in the intersection of tech &amp;amp; product for fast growing&lt;/h2&gt;
+
+&lt;p&gt;startups that are trying to find product market fit, these pointers have helped &lt;br&gt;
+me to work effectively to figure out next steps for the product. #productnotes&lt;/p&gt;
+
+&lt;h3 id="context"&gt;Context&lt;/h3&gt;
+
+&lt;p&gt;The “Product’ role is relatively new and there are no clear definitions for it &lt;br&gt;
+as it often varies across companies. Interestingly it started off from a &lt;br&gt;
+marketing role and then has moved to a place where the role often sites between &lt;br&gt;
+different &lt;strong&gt;stakeholders&lt;/strong&gt; of a company be it tech (UX/UI), sales, business, &lt;br&gt;
+customer support/user research including marketing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/1600/1*4rqZJs_MrLFVjmtWtzKvwA.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h3 id="letsgo"&gt;Lets go&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;(1)&lt;/strong&gt; To have a successful product, the idea is to keep asking &lt;em&gt;*WHY *&lt;/em&gt;keeping
+the end user in mind. If the repeated whys are not answered clearly, the &lt;br&gt;
+underlying assumptions need to be revisited.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(2)&lt;/strong&gt; Software engineers build and fix bugs in the product and need their mind
+time utilized effectively for just that. The role of product is keeping the line &lt;br&gt;
+from end users to engineers short, effective and two way, getting all &lt;br&gt;
+distractions out of the way.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(3)&lt;/strong&gt; Building a good product is often full of distractions, more prone to
+failure than you expect and can get easily complex. Keep things as &lt;strong&gt;simple&lt;/strong&gt; as &lt;br&gt;
+possible (KISS), and &lt;strong&gt;prioritize&lt;/strong&gt; ruthlessly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(5)&lt;/strong&gt; To reduce complexity, a product is often dividied into smaller
+products/features like by&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Platform: iOS vs Android vs Web&lt;/li&gt;
+&lt;li&gt;Feature: Recommendations on Netflix, Search on Spotify, Messenger on FB, Moments
+on Twitter.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;(6) Define your Metrics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;KPI&lt;/strong&gt; or Key Performance Indicators define if the product is going in the
+right direction. KPIs bring teams together and its important to define them &lt;br&gt;
+&lt;em&gt;well&lt;/em&gt;. Common ones are&lt;/p&gt;
+
+&lt;p&gt;MAU/DAU = Monthly active users, daily active users.&lt;/p&gt;
+
+&lt;p&gt;MRR = Monthly recurring revenue.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(7)&lt;/strong&gt; You don’t need to be the IDEA person to figure out how to solve all
+product problems. As long as every major decision comes from a deep desire to &lt;br&gt;
+get closer to the truth to find product market fit, you are avoiding major pit &lt;br&gt;
+falls.&lt;/p&gt;
+
+&lt;p&gt;Where do ideas come from? &lt;em&gt;Employees, Metrics, Users&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(8) Technical Knowledge&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AB Testing (Optimizely)&lt;/li&gt;
+&lt;li&gt;Core principles for UI/UX design to not reinvent wheels.&lt;/li&gt;
+&lt;li&gt;Analytics (Google, Kissmetrics) and how to track actions.&lt;/li&gt;
+&lt;li&gt;Prototyping using Proto/Balsamiq&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;(9) Product lifecycle&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Be aware of which stage a product or feature is in.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Conception of Feature after Ideation/Brainstorming&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Project Planning&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Developing Software&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Iterate&lt;/em&gt; (Test feedback)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Launch&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Iterate + Steady state (&lt;/em&gt;OR&lt;em&gt;) Fail&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;(10) How do we develop the product?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Minimum viable product (MVP), Lean Startup by Eric Ries talk enough about to &lt;br&gt;
+keep product development effective.&lt;/p&gt;
+
+&lt;p&gt;From a software point of view, development is “Agile”, and there are two schools &lt;br&gt;
+of thought.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SCRUM&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tickets created are units of work assigned to a developer.&lt;/p&gt;
+
+&lt;p&gt;Sprint. Generally two weeks.&lt;/p&gt;
+
+&lt;p&gt;Sprint planning moves tickets from product to sprint backlog.&lt;/p&gt;
+
+&lt;p&gt;Daily &amp;lt;15m stand up meetings with (Now, Blockers, Next)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;KANBAN&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not as strict as Scrum, more “relaxed”. Harder to “estimate” work.&lt;/p&gt;
+
+&lt;p&gt;Kanban Board. Has only three columns. TODO, IN PROGRESS, DONE.&lt;/p&gt;
+
+&lt;p&gt;No sprints. Only “product” backlog, which is endless.&lt;/p&gt;
+
+&lt;p&gt;No specific meeting types.&lt;/p&gt;
+
+&lt;p&gt;Only a certain number of tickets that are in progress.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(11) Set up an effective COMMUNICATION architecture.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;People fuck up all the time, so keep the atmosphere positive, less blame games, &lt;br&gt;
+give credit when its due and keep customer satisfaction as your light at the end &lt;br&gt;
+of the tunnel. This can happen irrespective of what personality type you fit &lt;br&gt;
+into.&lt;/p&gt;
+
+&lt;p&gt;With communication, focus on the what (given whys are answered) over the hows.&lt;/p&gt;
+
+&lt;p&gt;What works&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;1–1 meetings.&lt;/em&gt; How are things going?  &lt;/li&gt;
+&lt;li&gt;*Retrospectives from sprints. *What have we done the last two weeks? How can we &lt;br&gt;
+do better the next two weeks?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;(12) Common Cognitive Biases&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Halo&lt;/strong&gt; and &lt;strong&gt;Horns&lt;/strong&gt; effect. Causes you to allow one reason/one advantage, &lt;br&gt;
+either good (halo) or bad (horns), to overshadow other reasons. Eg: Good looking &lt;br&gt;
+people thought to be intelligent.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Availability bias&lt;/strong&gt;. We tend to remember frequent &amp;amp; recent events and use that &lt;br&gt;
+for reasoning even though they might not be supportive (enough)  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sunk Cost Fallacy&lt;/strong&gt;. Classic. We tend to rationalize and put more resources to &lt;br&gt;
+a project that is failing hoping to see the tables turn. Often why pivot &lt;br&gt;
+decisions take longer and feel hard to make.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Boredom syndrome&lt;/strong&gt;. Most (ambitious) humans have the tendency to need to act, &lt;br&gt;
+even when their actions are not needed. We also tend to offer solutions even &lt;br&gt;
+when we do not enough knowledge to solve the problem.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Influence of stress&lt;/strong&gt;. Biases become more prominent when stressed. Hasty &lt;br&gt;
+decisions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;(13) Conduct User interviews&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Often under worked on, but talking to end users defines where the product needs &lt;br&gt;
+to go.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ask for feedback often and go after different profiles of end users.&lt;/li&gt;
+&lt;li&gt;Have a clear list of questions to ask them and keep this open with WHAT and HOW
+questions. Informal however.  &lt;/li&gt;
+&lt;li&gt;Don’t reveal what you are working on. Its important that they trip on it and
+this is possible because its a “problem” they have. This is the AHA moment you &lt;br&gt;
+have to lead them into.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each of the above pointers may or may not work you since each product/team is &lt;br&gt;
+different.&lt;/p&gt;
+
+&lt;p&gt;What have I missed?&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="https://medium.com/@ricardovice"&gt;Ricardo Vice Santos&lt;/a&gt; &amp;amp; &lt;a href="https://medium.com/@irobbin2"&gt;Ian &lt;br&gt;
+Robbins&lt;/a&gt; for their tips here.&lt;/p&gt;</content:encoded></item><item><title>Skydiving</title><description>&lt;p&gt;I spent the last three weeks learning how to sky dive and got my A license, a ticket for me to jump out of planes around the world - and loved it!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="http://d.cggaurav.net/jkAnzt/5cIBhrPi+" alt=""&gt;&lt;/p&gt;
 
@@ -454,36 +628,4 @@ Have a sweater to feel warm during the night if its cold in your location.&lt;/p
 
 &lt;p&gt;A signup or login request is made to the CouchDB _session API via a POST request, the response of which has a Token that is valid for X minutes, which can be used for further authenticated requests.&lt;/p&gt;
 
-&lt;p&gt;All passwords in CouchDB are salted.&lt;/p&gt;</content:encoded></item><item><title>DigitalOcean, Docker and the changing World of DevOps</title><description>&lt;p&gt;Firstly, &lt;a href="https://www.digitalocean.com/pricing"&gt;DigitalOcean&lt;/a&gt; offers affordable cloud hosting with SSD and I immediately signed up for the $20 plan mostly to mess around with &lt;a href="https://www.docker.io/"&gt;Docker&lt;/a&gt; | As an alternative to EC2, this is bang for your buck.&lt;/p&gt;
-
-&lt;p&gt;Enter Docker&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://f.cl.ly/items/3f16362q2y150D293s2J/Screen%20Shot%202013-10-11%20at%201.16.49%20PM.png" alt="Docker"&gt;&lt;/p&gt;
-
-&lt;p&gt;Docker is a Linux Container Engine and uses something called the AUFS – AnotherUnion File&lt;/p&gt;</description><link>http://localhost:2368/2013/10/12/digitalocean-docker-and-the-changing-world-of-devops/</link><guid isPermaLink="false">b2be4cf9-01d8-4ec3-8353-e82b75617ddf</guid><category>Digital Ocean</category><category>Docker</category><category>StackMachine</category><dc:creator>Gaurav C</dc:creator><pubDate>Fri, 11 Oct 2013 19:55:00 GMT</pubDate><content:encoded>&lt;p&gt;Firstly, &lt;a href="https://www.digitalocean.com/pricing"&gt;DigitalOcean&lt;/a&gt; offers affordable cloud hosting with SSD and I immediately signed up for the $20 plan mostly to mess around with &lt;a href="https://www.docker.io/"&gt;Docker&lt;/a&gt; | As an alternative to EC2, this is bang for your buck.&lt;/p&gt;
-
-&lt;p&gt;Enter Docker&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://f.cl.ly/items/3f16362q2y150D293s2J/Screen%20Shot%202013-10-11%20at%201.16.49%20PM.png" alt="Docker"&gt;&lt;/p&gt;
-
-&lt;p&gt;Docker is a Linux Container Engine and uses something called the AUFS – AnotherUnion File System.It is built solely for the purpose of sharing most of the OS resources which are critical and layers the changes needed for a backend service packaged as its own Docker Image. What this means is that you can have multiple docker content/images each running independantly on its own, relying on core OS utils and its dependencies are managed within its Docker container. Further, a docker image can be thought of as a git repository with a series of commits that can build and run, thereby making it easy to deploy changes and manage continous integration.&lt;/p&gt;
-
-&lt;p&gt;Docker is still rough in the edges but I decided to run an elasticsearch server and a redis instance in production.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/cggaurav/docker-elasticsearch"&gt;Docker-Elasticsearch&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/cggaurav/docker-redis"&gt;Docker-Redis&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Things get tricky because you don’t have direct access to the docker image file system. Therefore, during run, you should share a mount folder where you can put a service’s configuration,data and logs. As per my convention, I have a DigitalOcean host directory /data/redis and /data/elasticsearch where I store each of the configuration,data and logs. That makes me backup data, change configuration( passwords, etc) and rerun the instance and clear logs with logrotate.&lt;/p&gt;
-
-&lt;p&gt;Thanks to &lt;a href="https://github.com/arcus-io/"&gt;Arcus-IO&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Further, the above content/images are public. For production you’ll need to bind public ports, have other custom config and not completely rely on docker run to pass time run time environment variables. I am not sure if this is a full blown problem to solve but &lt;a href="http://stackmachine.com"&gt;StackMachine&lt;/a&gt; came to the rescue – to be able to push and pull private docker content/images. The only thing I need to do in production is&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;docker pull stackmachine.com/rep docker run stackmachine.com/rep &amp;amp;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;There are tons of interesting content/images at &lt;a href="http://index.docker.io"&gt;Docker-Index&lt;/a&gt; and I am pretty excited to see what this becomes in a few months time.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;This is a highly brief post about the docker ecosystem in general. I     am writing individual posts on configuring services like logstash,     elasticsearch, redis in detail at a later point in time.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;All passwords in CouchDB are salted.&lt;/p&gt;</content:encoded></item></channel></rss>
