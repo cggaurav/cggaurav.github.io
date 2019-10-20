@@ -1,19 +1,20 @@
-
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <title>Error Tracking With Opbeat</title>
-  <meta name="description" content="">
+  <meta name="description" content="" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link rel="shortcut icon" href="../../../../favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico" />
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700&amp;subset=latin,latin-ext">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/solarized_light.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700&subset=latin,latin-ext" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/solarized_light.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
-  <link rel="stylesheet" href="../../../../assets/css/style.css?v=c5653d644b">
+  <link rel="stylesheet" href="/assets/css/style.css?v=b1a1ca229b" />
 
   <script>
   var Crossing = {};
@@ -28,31 +29,31 @@
   };
 </script>
 
-  <link rel="canonical" href="index.html">
-    <meta name="referrer" content="no-referrer-when-downgrade">
-    <link rel="amphtml" href="amp/index.html">
+  <link rel="canonical" href="http://localhost:2368/2013/08/13/error-tracking-with-opbeat/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="http://localhost:2368/2013/08/13/error-tracking-with-opbeat/amp/" />
     
-    <meta property="og:site_name" content="Gaurav Chandrashekar">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Error Tracking With Opbeat">
-    <meta property="og:description" content="Opbeat is a simple and elegant deployment/error tracking solution for your webapps. We are using a backend NodeJS + Socket.IO app to handle data pushes to a client. Here we have tons of requests we are making to our own API and APIs from other frameworks we depend on,">
-    <meta property="og:url" content="http://localhost:2368/2013/08/13/error-tracking-with-opbeat/">
-    <meta property="article:published_time" content="2013-08-12T19:55:00.000Z">
-    <meta property="article:modified_time" content="2016-03-28T21:16:50.000Z">
-    <meta property="article:tag" content="Opbeat">
-    <meta property="article:tag" content="Error Tracking">
-    <meta property="article:tag" content="Deployment Tracking">
+    <meta property="og:site_name" content="Gaurav Chandrashekar" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Error Tracking With Opbeat" />
+    <meta property="og:description" content="Opbeat is a simple and elegant deployment/error tracking solution for your webapps. We are using a backend NodeJS + Socket.IO app to handle data pushes to a client. Here we have tons of requests we are making to our own API and APIs from other frameworks we depend on," />
+    <meta property="og:url" content="http://localhost:2368/2013/08/13/error-tracking-with-opbeat/" />
+    <meta property="article:published_time" content="2013-08-12T19:55:00.000Z" />
+    <meta property="article:modified_time" content="2016-03-28T21:16:50.000Z" />
+    <meta property="article:tag" content="Opbeat" />
+    <meta property="article:tag" content="Error Tracking" />
+    <meta property="article:tag" content="Deployment Tracking" />
     
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Error Tracking With Opbeat">
-    <meta name="twitter:description" content="Opbeat is a simple and elegant deployment/error tracking solution for your webapps. We are using a backend NodeJS + Socket.IO app to handle data pushes to a client. Here we have tons of requests we are making to our own API and APIs from other frameworks we depend on,">
-    <meta name="twitter:url" content="http://localhost:2368/2013/08/13/error-tracking-with-opbeat/">
-    <meta name="twitter:label1" content="Written by">
-    <meta name="twitter:data1" content="Gaurav C">
-    <meta name="twitter:label2" content="Filed under">
-    <meta name="twitter:data2" content="Opbeat, Error Tracking, Deployment Tracking">
-    <meta name="twitter:site" content="@cggaurav">
-    <meta name="twitter:creator" content="@cggaurav">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Error Tracking With Opbeat" />
+    <meta name="twitter:description" content="Opbeat is a simple and elegant deployment/error tracking solution for your webapps. We are using a backend NodeJS + Socket.IO app to handle data pushes to a client. Here we have tons of requests we are making to our own API and APIs from other frameworks we depend on," />
+    <meta name="twitter:url" content="http://localhost:2368/2013/08/13/error-tracking-with-opbeat/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Gaurav C" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Opbeat, Error Tracking, Deployment Tracking" />
+    <meta name="twitter:site" content="@cggaurav" />
+    <meta name="twitter:creator" content="@cggaurav" />
     
     <script type="application/ld+json">
 {
@@ -91,15 +92,15 @@
 }
     </script>
 
-    <script type="text/javascript" src="../../../../shared/ghost-url.js?v=c5653d644b"></script>
+    <script type="text/javascript" src="/shared/ghost-url.js?v=b1a1ca229b"></script>
 <script type="text/javascript">
 ghost.init({
 	clientId: "ghost-frontend",
 	clientSecret: "46f75c770a33"
 });
 </script>
-    <meta name="generator" content="Ghost 0.11">
-    <link rel="alternate" type="application/rss+xml" title="Gaurav Chandrashekar" href="../../../../rss/index.html">
+    <meta name="generator" content="Ghost 0.11" />
+    <link rel="alternate" type="application/rss+xml" title="Gaurav Chandrashekar" href="http://localhost:2368/rss/" />
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -111,9 +112,9 @@ ghost.init({
 
 </script>
 <title>Gaurav Chandrashekar</title>
-<meta property="og:type" content="website">
-<meta property="og:url" content="http:/cggaurav.net">
-<meta property="og:image" content="http:/cggaurav.net/content/images/2016/09/DCS_7463-3.JPG">
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http:/cggaurav.net" />
+<meta property="og:image" content="http:/cggaurav.net/content/images/2016/09/DCS_7463-3.JPG" />
 <meta name="Description" content="Excited about building great products, services that have a meaningful impact on society. I contribute from a technical and product point of view and have worked across multiple industries, including ecommerce, music, art+photos, communication and transport. I love to work with smart people, thrive in diverse teams, get things done and have fun along the way.">
 <meta name="Keywords" content="Gaurav,Chandrashekar,Entrepreneur, Product, Software Engineer, Javascript, Tablist, SwimRunner, Freediver, Stoic, What's worth solving?">
 </head>
@@ -125,28 +126,28 @@ ghost.init({
       <nav id="site-nav" class="site-nav" role="navigation">
   <button class="site-nav-toggle">
     <span class="screen-reader">Menu</span>
-    <svg class="site-nav-hamburger" viewbox="0 0 18 14">
-      <path d="M0 0h18v2H0zM0 6h18v2H0zM0 12h18v2H0z"></path>
+    <svg class="site-nav-hamburger" viewBox="0 0 18 14">
+      <path d="M0 0h18v2H0zM0 6h18v2H0zM0 12h18v2H0z"/>
     </svg>
-    <svg class="site-nav-close" viewbox="0 0 18 14">
-      <path d="M16 12.586L3.414 0 2 1.414 14.586 14 16 12.586z"></path>
-      <path d="M2 12.586L14.586 0 16 1.414 3.414 14 2 12.586z"></path>
+    <svg class="site-nav-close" viewBox="0 0 18 14">
+      <path d="M16 12.586L3.414 0 2 1.414 14.586 14 16 12.586z"/>
+      <path d="M2 12.586L14.586 0 16 1.414 3.414 14 2 12.586z"/>
     </svg>
   </button>
 
   <ul class="site-nav-list clearfix">
-      <li><a href="../../../../">Home</a></li>
-      <li><a href="../../../../now/">Now?</a></li>
-      <li><a href="../../../../about/">Who?</a></li>
-      <li><a href="../../../../projects/">Projects</a></li>
-      <li><a href="https://medium.com/@cggaurav">Articles</a></li>
-      <li><a href="https://booksummaries.co/">BookSummaries</a></li>
-      <li><a href="http://cggaurav.tumblr.com/">Bored?</a></li>
+      <li ><a href="http://localhost:2368/">Home</a></li>
+      <li ><a href="http://localhost:2368/now/">Now?</a></li>
+      <li ><a href="http://localhost:2368/about/">Who?</a></li>
+      <li ><a href="http://localhost:2368/projects/">Projects</a></li>
+      <li ><a href="https://medium.com/@cggaurav">Articles</a></li>
+      <li ><a href="https://booksummaries.co/">BookSummaries</a></li>
+      <li ><a href="http://cggaurav.tumblr.com/">Bored?</a></li>
   </ul>
 </nav>
 
       <h1 class="site-title ">
-        <a href="../../../../">
+        <a href="http://localhost:2368" >
             Gaurav Chandrashekar
         </a>
       </h1>
@@ -160,9 +161,9 @@ ghost.init({
   <header class="post-header">
     <h1 class="post-title">Error Tracking With Opbeat</h1>
     <ul class="x-separated-list x-separated-list-meta">
-      <li class="post-byline"><a href="../../../../author/cggaurav/">Gaurav C</a></li>
+      <li class="post-byline"><a href="/author/cggaurav/">Gaurav C</a></li>
       <li class="post-date"><time datetime="2013-08-13">August 13, 2013</time></li>
-        <li class="post-tags"><a href="../../../../tag/opbeat/">Opbeat</a>, <a href="../../../../tag/error-tracking/">Error Tracking</a>, <a href="../../../../tag/deployment-tracking/">Deployment Tracking</a></li>
+        <li class="post-tags"><a href="/tag/opbeat/">Opbeat</a>, <a href="/tag/error-tracking/">Error Tracking</a>, <a href="/tag/deployment-tracking/">Deployment Tracking</a></li>
     </ul>
   </header>
   <div class="post-content">
@@ -174,7 +175,7 @@ ghost.init({
 
 <p>Now, instead of looking through our logs from our NodeJS app, I just depend on Opbeat. We use their <em>experimental</em> <a href="https://npmjs.org/package/opbeat">npm package</a></p>
 
-<p><img src="../../../../content/images/2016/03/opbeat.png" alt="Opbeat Screenshot"></p>
+<p><img src="/content/images/2016/03/opbeat.png" alt="Opbeat Screenshot" /></p>
 
 <p>There are other services competing with Opbeat, like <a href="https://bugsnag.com/">BugSnag</a> and <a href="http://nodetime.com">NodeTime</a>, but we are excited about what Opbeat is growing to become!</p>
   </div>
@@ -182,23 +183,26 @@ ghost.init({
     <span class="share-title">Share this on:</span>
     <ul class="x-separated-list">
       <li>
-        <a href="https://twitter.com/intent/tweet?text=Error%20Tracking%20With%20Opbeat&amp;url=http://localhost:2368/2013/08/13/error-tracking-with-opbeat/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">Twitter</a>
+        <a href="https://twitter.com/intent/tweet?text=Error%20Tracking%20With%20Opbeat&amp;url=http://localhost:2368/2013/08/13/error-tracking-with-opbeat/"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">Twitter</a>
       </li>
       <li>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2013/08/13/error-tracking-with-opbeat/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">Facebook</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2013/08/13/error-tracking-with-opbeat/"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">Facebook</a>
       </li>
       <li>
-        <a href="https://plus.google.com/share?url=http://localhost:2368/2013/08/13/error-tracking-with-opbeat/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">Google+</a>
+        <a href="https://plus.google.com/share?url=http://localhost:2368/2013/08/13/error-tracking-with-opbeat/"
+          onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">Google+</a>
       </li>
     </ul>
   </div>
 </article>
 
   <div class="post-author has-avatar">
-      <a href="../../../../author/cggaurav/" class="post-author-avatar" aria-hidden="true" style="background-image: url(../../../../content/images/2016/09/DCS_7463-3.JPG)"></a>
-    <a class="post-author-name" href="../../../../author/cggaurav/">Gaurav C</a>
+      <a href="/author/cggaurav/" class="post-author-avatar" aria-hidden="true" style="background-image: url(/content/images/2016/09/DCS_7463-3.JPG)"></a>
+    <a class="post-author-name" href="/author/cggaurav/">Gaurav C</a>
     <div class="post-author-bio">
-        Read <a href="../../../../author/cggaurav/">more posts</a> by this author.
+        Read <a href="/author/cggaurav/">more posts</a> by this author.
     </div>
   </div>
 
@@ -217,11 +221,11 @@ ghost.init({
 </script>
 
 <nav class="read-next">
-    <a class="read-next-newer" href="../../../09/21/using-amazon-s3-as-an-api-backend/">
+    <a class="read-next-newer" href="/2013/09/21/using-amazon-s3-as-an-api-backend/">
       <span class="read-next-label">Newer Post</span>
       <span class="read-next-title">Using Amazon S3 as an API Backend</span>
     </a>
-    <a class="read-next-older" href="../../../06/26/solving-cors-issues-like-a-racoon/">
+    <a class="read-next-older" href="/2013/06/26/solving-cors-issues-like-a-racoon/">
       <span class="read-next-label">Older Post</span>
       <span class="read-next-title">Solving CORS Issues Like a Racoon</span>
     </a>
@@ -233,7 +237,7 @@ ghost.init({
   <footer class="site-footer" role="contentinfo">
     <div class="container">
       <!-- <div id="footer-links" class="footer-links"></div> -->
-      © 2019 <a href="../../../../">Gaurav Chandrashekar</a>.
+      &copy; 2019 <a href="http://localhost:2368">Gaurav Chandrashekar</a>.
       Proudly published with <a href="https://ghost.org">Ghost</a>.
     </div>
   </footer>
@@ -241,7 +245,8 @@ ghost.init({
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
-  <script src="../../../../assets/js/script.js?v=c5653d644b"></script>
+  <script src="/assets/js/script.js?v=b1a1ca229b"></script>
 
   
 </body>
+</html>
