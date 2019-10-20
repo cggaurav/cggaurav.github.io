@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html>
+
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>Solving CORS Issues Like a Racoon</title>
-  <meta name="description" content="" />
+  <meta name="description" content="">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="shortcut icon" href="../../../../favicon.ico">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700&subset=latin,latin-ext" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/solarized_light.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700&amp;subset=latin,latin-ext">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/solarized_light.min.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css?v=b1a1ca229b" />
+  <link rel="stylesheet" href="../../../../assets/css/style.css?v=b1a1ca229b">
 
   <script>
   var Crossing = {};
@@ -29,32 +28,32 @@
   };
 </script>
 
-  <link rel="canonical" href="http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/" />
-    <meta name="referrer" content="no-referrer-when-downgrade" />
-    <link rel="amphtml" href="http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/amp/" />
+  <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
     
-    <meta property="og:site_name" content="Gaurav Chandrashekar" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Solving CORS Issues Like a Racoon" />
-    <meta property="og:description" content="- What is window.postMessage? Its an HTML5 spec where one window can communicate with another window if other frames or iframes within the sender document’s window -   windows the sender document explicitly opens through JavaScript     calls -   the parent window of the sender document -   the window which" />
-    <meta property="og:url" content="http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/" />
-    <meta property="article:published_time" content="2013-06-25T19:55:00.000Z" />
-    <meta property="article:modified_time" content="2013-06-25T19:55:00.000Z" />
-    <meta property="article:tag" content="CORS" />
-    <meta property="article:tag" content="iFrame" />
-    <meta property="article:tag" content="JSONP" />
-    <meta property="article:tag" content="HTTP" />
+    <meta property="og:site_name" content="Gaurav Chandrashekar">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Solving CORS Issues Like a Racoon">
+    <meta property="og:description" content="- What is window.postMessage? Its an HTML5 spec where one window can communicate with another window if other frames or iframes within the sender document’s window -   windows the sender document explicitly opens through JavaScript     calls -   the parent window of the sender document -   the window which">
+    <meta property="og:url" content="http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/">
+    <meta property="article:published_time" content="2013-06-25T19:55:00.000Z">
+    <meta property="article:modified_time" content="2013-06-25T19:55:00.000Z">
+    <meta property="article:tag" content="CORS">
+    <meta property="article:tag" content="iFrame">
+    <meta property="article:tag" content="JSONP">
+    <meta property="article:tag" content="HTTP">
     
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Solving CORS Issues Like a Racoon" />
-    <meta name="twitter:description" content="- What is window.postMessage? Its an HTML5 spec where one window can communicate with another window if other frames or iframes within the sender document’s window -   windows the sender document explicitly opens through JavaScript     calls -   the parent window of the sender document -   the window which" />
-    <meta name="twitter:url" content="http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/" />
-    <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Gaurav C" />
-    <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="CORS, iFrame, JSONP, HTTP" />
-    <meta name="twitter:site" content="@cggaurav" />
-    <meta name="twitter:creator" content="@cggaurav" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Solving CORS Issues Like a Racoon">
+    <meta name="twitter:description" content="- What is window.postMessage? Its an HTML5 spec where one window can communicate with another window if other frames or iframes within the sender document’s window -   windows the sender document explicitly opens through JavaScript     calls -   the parent window of the sender document -   the window which">
+    <meta name="twitter:url" content="http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Gaurav C">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="CORS, iFrame, JSONP, HTTP">
+    <meta name="twitter:site" content="@cggaurav">
+    <meta name="twitter:creator" content="@cggaurav">
     
     <script type="application/ld+json">
 {
@@ -93,15 +92,15 @@
 }
     </script>
 
-    <script type="text/javascript" src="/shared/ghost-url.js?v=b1a1ca229b"></script>
+    <script type="text/javascript" src="../../../../shared/ghost-url.js?v=b1a1ca229b"></script>
 <script type="text/javascript">
 ghost.init({
 	clientId: "ghost-frontend",
 	clientSecret: "46f75c770a33"
 });
 </script>
-    <meta name="generator" content="Ghost 0.11" />
-    <link rel="alternate" type="application/rss+xml" title="Gaurav Chandrashekar" href="http://localhost:2368/rss/" />
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="Gaurav Chandrashekar" href="../../../../rss/index.html">
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -113,9 +112,9 @@ ghost.init({
 
 </script>
 <title>Gaurav Chandrashekar</title>
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="http:/cggaurav.net" />
-<meta property="og:image" content="http:/cggaurav.net/content/images/2016/09/DCS_7463-3.JPG" />
+<meta property="og:type" content="website">
+<meta property="og:url" content="http:/cggaurav.net">
+<meta property="og:image" content="http:/cggaurav.net/content/images/2016/09/DCS_7463-3.JPG">
 <meta name="Description" content="Excited about building great products, services that have a meaningful impact on society. I contribute from a technical and product point of view and have worked across multiple industries, including ecommerce, music, art+photos, communication and transport. I love to work with smart people, thrive in diverse teams, get things done and have fun along the way.">
 <meta name="Keywords" content="Gaurav,Chandrashekar,Entrepreneur, Product, Software Engineer, Javascript, Tablist, SwimRunner, Freediver, Stoic, What's worth solving?">
 </head>
@@ -127,28 +126,28 @@ ghost.init({
       <nav id="site-nav" class="site-nav" role="navigation">
   <button class="site-nav-toggle">
     <span class="screen-reader">Menu</span>
-    <svg class="site-nav-hamburger" viewBox="0 0 18 14">
-      <path d="M0 0h18v2H0zM0 6h18v2H0zM0 12h18v2H0z"/>
+    <svg class="site-nav-hamburger" viewbox="0 0 18 14">
+      <path d="M0 0h18v2H0zM0 6h18v2H0zM0 12h18v2H0z"></path>
     </svg>
-    <svg class="site-nav-close" viewBox="0 0 18 14">
-      <path d="M16 12.586L3.414 0 2 1.414 14.586 14 16 12.586z"/>
-      <path d="M2 12.586L14.586 0 16 1.414 3.414 14 2 12.586z"/>
+    <svg class="site-nav-close" viewbox="0 0 18 14">
+      <path d="M16 12.586L3.414 0 2 1.414 14.586 14 16 12.586z"></path>
+      <path d="M2 12.586L14.586 0 16 1.414 3.414 14 2 12.586z"></path>
     </svg>
   </button>
 
   <ul class="site-nav-list clearfix">
-      <li ><a href="http://localhost:2368/">Home</a></li>
-      <li ><a href="http://localhost:2368/now/">Now?</a></li>
-      <li ><a href="http://localhost:2368/about/">Who?</a></li>
-      <li ><a href="http://localhost:2368/projects/">Projects</a></li>
-      <li ><a href="https://medium.com/@cggaurav">Articles</a></li>
-      <li ><a href="https://booksummaries.co/">BookSummaries</a></li>
-      <li ><a href="http://cggaurav.tumblr.com/">Bored?</a></li>
+      <li><a href="../../../../">Home</a></li>
+      <li><a href="../../../../now/">Now?</a></li>
+      <li><a href="../../../../about/">Who?</a></li>
+      <li><a href="../../../../projects/">Projects</a></li>
+      <li><a href="https://medium.com/@cggaurav">Articles</a></li>
+      <li><a href="https://booksummaries.co/">BookSummaries</a></li>
+      <li><a href="http://cggaurav.tumblr.com/">Bored?</a></li>
   </ul>
 </nav>
 
       <h1 class="site-title ">
-        <a href="http://localhost:2368" >
+        <a href="../../../../">
             Gaurav Chandrashekar
         </a>
       </h1>
@@ -162,9 +161,9 @@ ghost.init({
   <header class="post-header">
     <h1 class="post-title">Solving CORS Issues Like a Racoon</h1>
     <ul class="x-separated-list x-separated-list-meta">
-      <li class="post-byline"><a href="/author/cggaurav/">Gaurav C</a></li>
+      <li class="post-byline"><a href="../../../../author/cggaurav/">Gaurav C</a></li>
       <li class="post-date"><time datetime="2013-06-26">June 26, 2013</time></li>
-        <li class="post-tags"><a href="/tag/cors/">CORS</a>, <a href="/tag/iframe/">iFrame</a>, <a href="/tag/jsonp/">JSONP</a>, <a href="/tag/http/">HTTP</a></li>
+        <li class="post-tags"><a href="../../../../tag/cors/">CORS</a>, <a href="../../../../tag/iframe/">iFrame</a>, <a href="../../../../tag/jsonp/">JSONP</a>, <a href="../../../../tag/http/">HTTP</a></li>
     </ul>
   </header>
   <div class="post-content">
@@ -196,26 +195,23 @@ ghost.init({
     <span class="share-title">Share this on:</span>
     <ul class="x-separated-list">
       <li>
-        <a href="https://twitter.com/intent/tweet?text=Solving%20CORS%20Issues%20Like%20a%20Racoon&amp;url=http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/"
-          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">Twitter</a>
+        <a href="https://twitter.com/intent/tweet?text=Solving%20CORS%20Issues%20Like%20a%20Racoon&amp;url=http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">Twitter</a>
       </li>
       <li>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/"
-          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">Facebook</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">Facebook</a>
       </li>
       <li>
-        <a href="https://plus.google.com/share?url=http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/"
-          onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">Google+</a>
+        <a href="https://plus.google.com/share?url=http://localhost:2368/2013/06/26/solving-cors-issues-like-a-racoon/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">Google+</a>
       </li>
     </ul>
   </div>
 </article>
 
   <div class="post-author has-avatar">
-      <a href="/author/cggaurav/" class="post-author-avatar" aria-hidden="true" style="background-image: url(/content/images/2016/09/DCS_7463-3.JPG)"></a>
-    <a class="post-author-name" href="/author/cggaurav/">Gaurav C</a>
+      <a href="../../../../author/cggaurav/" class="post-author-avatar" aria-hidden="true" style="background-image: url(../../../../content/images/2016/09/DCS_7463-3.JPG)"></a>
+    <a class="post-author-name" href="../../../../author/cggaurav/">Gaurav C</a>
     <div class="post-author-bio">
-        Read <a href="/author/cggaurav/">more posts</a> by this author.
+        Read <a href="../../../../author/cggaurav/">more posts</a> by this author.
     </div>
   </div>
 
@@ -234,7 +230,7 @@ ghost.init({
 </script>
 
 <nav class="read-next">
-    <a class="read-next-newer" href="/2013/08/13/error-tracking-with-opbeat/">
+    <a class="read-next-newer" href="../../../08/13/error-tracking-with-opbeat/">
       <span class="read-next-label">Newer Post</span>
       <span class="read-next-title">Error Tracking With Opbeat</span>
     </a>
@@ -246,7 +242,7 @@ ghost.init({
   <footer class="site-footer" role="contentinfo">
     <div class="container">
       <!-- <div id="footer-links" class="footer-links"></div> -->
-      &copy; 2019 <a href="http://localhost:2368">Gaurav Chandrashekar</a>.
+      © 2019 <a href="../../../../">Gaurav Chandrashekar</a>.
       Proudly published with <a href="https://ghost.org">Ghost</a>.
     </div>
   </footer>
@@ -254,8 +250,7 @@ ghost.init({
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
-  <script src="/assets/js/script.js?v=b1a1ca229b"></script>
+  <script src="../../../../assets/js/script.js?v=b1a1ca229b"></script>
 
   
 </body>
-</html>
